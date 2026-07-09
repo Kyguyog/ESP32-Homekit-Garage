@@ -70,7 +70,7 @@ void setup() {
   new SpanAccessory();
     new Service::AccessoryInformation();
       new Characteristic::Identify();
-      new Characteristic::Manufacturer("Kyan");
+      new Characteristic::Manufacturer("ESP32 Garage Door");
       new Characteristic::Model("ESP32");
     
     // Create the garage door object on GPIO pin 5
